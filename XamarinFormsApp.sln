@@ -4,8 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsApp.Android", "XamarinFormsApp\XamarinFormsApp.Android\XamarinFormsApp.Android.csproj", "{22C74EB9-6E4E-45F2-BA8D-5CC891FF6B37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B30D982E-2739-4281-8947-1ECAA351E743} = {B30D982E-2739-4281-8947-1ECAA351E743}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsApp.iOS", "XamarinFormsApp\XamarinFormsApp.iOS\XamarinFormsApp.iOS.csproj", "{C1225213-1AB8-4149-9CA7-AB62EBECA432}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B30D982E-2739-4281-8947-1ECAA351E743} = {B30D982E-2739-4281-8947-1ECAA351E743}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsApp.UWP", "XamarinFormsApp\XamarinFormsApp.UWP\XamarinFormsApp.UWP.csproj", "{A3708791-CFF7-46B0-8999-874965FDC45B}"
 EndProject
