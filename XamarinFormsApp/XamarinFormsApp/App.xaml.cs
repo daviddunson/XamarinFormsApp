@@ -13,7 +13,7 @@ namespace XamarinFormsApp
         public App()
         {
             this.InitializeComponent();
-            this.MainPage = new SimpleContentPage();
+            this.MainPage = new MainPage();
         }
 
         protected override void OnResume()
