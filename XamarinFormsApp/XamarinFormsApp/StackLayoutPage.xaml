@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsApp.StackLayoutPage">
+
+  <ScrollView>
+    <StackLayout Orientation="Vertical" Padding="30" Spacing="10">
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Name" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="nameEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Address" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="addressEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="City" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="cityEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="State" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="stateEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Zip" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="zipEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Home Phone" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="homePhoneEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal" Spacing="5">
+        <Label Text="Work Phone" Font="Large" VerticalOptions="End" />
+        <Entry x:Name="workPhoneEntry" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+
+    </StackLayout>
+
+  </ScrollView>
+
+</ContentPage>

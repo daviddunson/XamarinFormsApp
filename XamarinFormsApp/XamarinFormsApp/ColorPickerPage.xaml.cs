@@ -1,17 +1,16 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="MainPage.xaml.cs" company="GSD Logic">
+// <copyright file="ColorPickerPage.xaml.cs" company="GSD Logic">
 //   Copyright © 2018 GSD Logic. All Rights Reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace XamarinFormsApp
 {
-    using System;
     using Xamarin.Forms;
 
-    public partial class MainPage
+    public partial class ColorPickerPage
     {
-        public MainPage()
+        public ColorPickerPage()
         {
             this.InitializeComponent();
         }

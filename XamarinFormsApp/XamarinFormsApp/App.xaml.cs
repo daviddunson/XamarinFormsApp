@@ -8,12 +8,12 @@ namespace XamarinFormsApp
 {
     using Xamarin.Forms;
 
-    public partial class App : Application
+    public partial class App
     {
         public App()
         {
             this.InitializeComponent();
-            this.MainPage = new ListViewPage();
+            this.MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnResume()

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinFormsApp.MainPage"
+             x:Class="XamarinFormsApp.ColorPickerPage"
              BackgroundColor="BlanchedAlmond">
 
   <StackLayout>
 
-    <BoxView x:Name="ColorBox" HorizontalOptions="FillAndExpand" HeightRequest="100" Color="Red" />
+    <BoxView x:Name="ColorBox" HorizontalOptions="FillAndExpand" HeightRequest="100" />
 
     <Label Text="Red" />
     <Slider x:Name="RedSlider" Minimum="0" Maximum="1" ValueChanged="ColorSliderChanged" />
